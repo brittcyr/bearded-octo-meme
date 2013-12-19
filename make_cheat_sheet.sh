@@ -11,7 +11,7 @@ cd temp_dir
 wget -A.pdf -L -r --random-wait --tries=10 -q -nd $SITE
 
 # Combine all them into one pdf
-pdfunite *pdf combined_pdf.pdf
+pdfunite *sol*pdf combined_pdf.pdf
 
 # Convert to postscript format
 pdftops combined_pdf.pdf
